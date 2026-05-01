@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/kendo/hero.jpg" alt="Yuto Terashima kendo banner" width="100%">
+  <img src="./assets/kendo/kendo_isshin_furan_photo_wall_4k_v4.png" alt="Yuto Terashima kendo banner" width="100%">
 </p>
 
 <h1 align="center">寺島悠斗</h1>
@@ -15,6 +15,15 @@
   Focused execution, rigorous evaluation, and trustworthy AI systems.<br>
   AI研究と剣道に通じる集中と修練。<br>
   以剑道的专注，打磨 AI 系统与评测。
+</p>
+
+<p align="center">
+  <img src="./assets/widgets/ai_dojo_console.svg" alt="AI Dojo Console" width="100%">
+</p>
+
+<p align="center">
+  <img src="./assets/widgets/research_radar.svg" alt="Research Radar" width="49%">
+  <img src="./assets/widgets/portfolio_pulse.svg" alt="Portfolio Pulse" width="49%">
 </p>
 
 ---

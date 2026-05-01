@@ -1,0 +1,32 @@
+<svg width="880" height="230" viewBox="0 0 880 230" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">AI Dojo Console</title>
+  <desc id="desc">A profile widget showing Yuto Terashima's AI research dojo status.</desc>
+  <rect width="880" height="230" rx="22" fill="#0B1020"/>
+  <rect x="1" y="1" width="878" height="228" rx="21" stroke="#7DD3FC" stroke-opacity=".45" stroke-width="2"/>
+  <path d="M0 166 C150 110 280 210 430 150 C590 85 710 125 880 55 L880 230 L0 230 Z" fill="#102A3A"/>
+  <path d="M0 182 C160 128 280 222 430 166 C605 100 715 142 880 75" stroke="#38BDF8" stroke-opacity=".35" stroke-width="3"/>
+  <text x="36" y="48" fill="#E0F2FE" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">AI DOJO CONSOLE</text>
+  <text x="36" y="84" fill="#BAE6FD" font-family="Segoe UI, Arial, sans-serif" font-size="15">一心不乱 / one mind, undisturbed</text>
+  <g transform="translate(36 114)">
+    <rect width="185" height="72" rx="14" fill="#111827" stroke="#38BDF8" stroke-opacity=".35"/>
+    <text x="18" y="30" fill="#93C5FD" font-family="Segoe UI, Arial, sans-serif" font-size="13">FLAGSHIP</text>
+    <text x="18" y="54" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">Agent Safety</text>
+  </g>
+  <g transform="translate(242 114)">
+    <rect width="185" height="72" rx="14" fill="#111827" stroke="#A7F3D0" stroke-opacity=".35"/>
+    <text x="18" y="30" fill="#86EFAC" font-family="Segoe UI, Arial, sans-serif" font-size="13">METHOD</text>
+    <text x="18" y="54" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">Real Evals</text>
+  </g>
+  <g transform="translate(448 114)">
+    <rect width="185" height="72" rx="14" fill="#111827" stroke="#FDE68A" stroke-opacity=".35"/>
+    <text x="18" y="30" fill="#FDE68A" font-family="Segoe UI, Arial, sans-serif" font-size="13">HARDWARE</text>
+    <text x="18" y="54" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">RTX 5090</text>
+  </g>
+  <g transform="translate(654 114)">
+    <rect width="185" height="72" rx="14" fill="#111827" stroke="#F0ABFC" stroke-opacity=".35"/>
+    <text x="18" y="30" fill="#F0ABFC" font-family="Segoe UI, Arial, sans-serif" font-size="13">STYLE</text>
+    <text x="18" y="54" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">Kendo Focus</text>
+  </g>
+  <circle cx="788" cy="45" r="18" fill="#7DD3FC" fill-opacity=".15" stroke="#7DD3FC"/>
+  <path d="M778 45 H798 M788 35 V55" stroke="#E0F2FE" stroke-width="2" stroke-linecap="round"/>
+</svg>
