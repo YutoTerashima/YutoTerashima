@@ -1,18 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="216" height="36" role="img" aria-label="total stars: 12">
-  <title>total stars: 12</title>
-  <linearGradient id="s" x2="0" y2="100%">
-    <stop offset="0" stop-color="#f8fafc" stop-opacity=".12"/>
-    <stop offset="1" stop-color="#020617" stop-opacity=".12"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="118" viewBox="0 0 720 118" role="img" aria-label="portfolio stars: 12">
+  <title>portfolio stars: 12</title>
+  <defs>
+  <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+    <stop offset="0" stop-color="#0f172a"/>
+    <stop offset=".55" stop-color="#111827"/>
+    <stop offset="1" stop-color="#020617"/>
   </linearGradient>
-  <clipPath id="r"><rect width="216" height="36" rx="9" fill="#fff"/></clipPath>
-  <g clip-path="url(#r)">
-    <rect width="112" height="36" fill="#0f172a"/>
-    <rect x="112" width="104" height="36" fill="#f59e0b"/>
-    <rect width="216" height="36" fill="url(#s)"/>
-  </g>
-  <g fill="#fff" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">
-    <text x="56" y="23">★ total stars</text>
-    <text x="164" y="23">12</text>
-  </g>
-  <text x="208" y="32" fill="#fff7ed" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="8">12 repos</text>
+  <linearGradient id="gold" x1="0" x2="1">
+    <stop offset="0" stop-color="#f97316"/>
+    <stop offset=".55" stop-color="#facc15"/>
+    <stop offset="1" stop-color="#fde68a"/>
+  </linearGradient>
+  <filter id="glow" x="-20%" y="-60%" width="140%" height="220%">
+    <feGaussianBlur stdDeviation="5" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  </defs>
+  <rect x="1" y="1" width="718" height="116" rx="18" fill="url(#bg)" stroke="#334155" stroke-width="2"/>
+  <circle cx="630" cy="22" r="78" fill="#f59e0b" opacity=".08"/>
+  <text x="32" y="38" fill="#e2e8f0" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing=".8">PORTFOLIO SIGNAL</text>
+  <text x="32" y="76" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="38" font-weight="800">★ 12</text>
+  <text x="150" y="73" fill="#fef3c7" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">total GitHub stars</text>
+  <rect x="32" y="91" width="560" height="10" rx="5" fill="#1e293b"/>
+  <rect x="32" y="91" width="306" height="10" rx="5" fill="url(#gold)" filter="url(#glow)"/>
+  <text x="612" y="101" fill="#cbd5e1" font-family="Segoe UI, Arial, sans-serif" font-size="12">12 public repos</text>
+  <text x="676" y="37" fill="#facc15" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="30">★</text>
 </svg>

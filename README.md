@@ -17,16 +17,6 @@
   以剑道的专注，打磨 AI 系统与评测。
 </p>
 
-## Project Stars
-
-<p align="center">
-  <a href="https://github.com/YutoTerashima?tab=repositories">
-    <img src="./assets/widgets/total_stars.svg" alt="Total GitHub stars">
-  </a>
-</p>
-
----
-
 ## About
 
 I am an AI researcher interested in how language models behave when they become
@@ -58,6 +48,12 @@ multilingual safety, and transformer-based NLP systems.
 | [multilingual-llm-safety-bench](https://github.com/YutoTerashima/multilingual-llm-safety-bench) | English/Japanese/Chinese safety mini-benchmark and model behavior report |
 | [ISC-Bench-Reproduction](https://github.com/YutoTerashima/ISC-Bench-Reproduction) | Reproduction-oriented work around LLM safety and agent evaluation |
 | [Transformers-Projects](https://github.com/YutoTerashima/Transformers-Projects) | Transformer/NLP project lab and experiments |
+
+<p align="center">
+  <a href="https://github.com/YutoTerashima?tab=repositories">
+    <img src="./assets/widgets/total_stars.svg" alt="Total GitHub stars" width="420">
+  </a>
+</p>
 
 ## Portfolio Matrix
 

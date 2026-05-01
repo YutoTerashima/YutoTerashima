@@ -43,26 +43,38 @@ def compact(n: int) -> str:
 
 
 def render(total: int, repo_count: int) -> str:
-    label = "total stars"
+    label = "portfolio stars"
     value = compact(total)
-    width = 216
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="36" role="img" aria-label="{label}: {value}">
+    width = 720
+    height = 118
+    bar_width = min(560, 90 + total * 18)
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-label="{label}: {value}">
   <title>{label}: {value}</title>
-  <linearGradient id="s" x2="0" y2="100%">
-    <stop offset="0" stop-color="#f8fafc" stop-opacity=".12"/>
-    <stop offset="1" stop-color="#020617" stop-opacity=".12"/>
+  <defs>
+  <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+    <stop offset="0" stop-color="#0f172a"/>
+    <stop offset=".55" stop-color="#111827"/>
+    <stop offset="1" stop-color="#020617"/>
   </linearGradient>
-  <clipPath id="r"><rect width="{width}" height="36" rx="9" fill="#fff"/></clipPath>
-  <g clip-path="url(#r)">
-    <rect width="112" height="36" fill="#0f172a"/>
-    <rect x="112" width="{width - 112}" height="36" fill="#f59e0b"/>
-    <rect width="{width}" height="36" fill="url(#s)"/>
-  </g>
-  <g fill="#fff" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">
-    <text x="56" y="23">★ {label}</text>
-    <text x="{112 + (width - 112) / 2:.0f}" y="23">{value}</text>
-  </g>
-  <text x="{width - 8}" y="32" fill="#fff7ed" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="8">{repo_count} repos</text>
+  <linearGradient id="gold" x1="0" x2="1">
+    <stop offset="0" stop-color="#f97316"/>
+    <stop offset=".55" stop-color="#facc15"/>
+    <stop offset="1" stop-color="#fde68a"/>
+  </linearGradient>
+  <filter id="glow" x="-20%" y="-60%" width="140%" height="220%">
+    <feGaussianBlur stdDeviation="5" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  </defs>
+  <rect x="1" y="1" width="{width - 2}" height="{height - 2}" rx="18" fill="url(#bg)" stroke="#334155" stroke-width="2"/>
+  <circle cx="630" cy="22" r="78" fill="#f59e0b" opacity=".08"/>
+  <text x="32" y="38" fill="#e2e8f0" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing=".8">PORTFOLIO SIGNAL</text>
+  <text x="32" y="76" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="38" font-weight="800">★ {value}</text>
+  <text x="150" y="73" fill="#fef3c7" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">total GitHub stars</text>
+  <rect x="32" y="91" width="560" height="10" rx="5" fill="#1e293b"/>
+  <rect x="32" y="91" width="{bar_width}" height="10" rx="5" fill="url(#gold)" filter="url(#glow)"/>
+  <text x="612" y="101" fill="#cbd5e1" font-family="Segoe UI, Arial, sans-serif" font-size="12">{repo_count} public repos</text>
+  <text x="676" y="37" fill="#facc15" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="30">★</text>
 </svg>
 """
 
