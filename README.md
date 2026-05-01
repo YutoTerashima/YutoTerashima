@@ -2,11 +2,12 @@
   <img src="./assets/kendo/hero.jpg" alt="Yuto Terashima kendo banner" width="100%">
 </p>
 
+<h1 align="center">寺島悠斗</h1>
 <h1 align="center">Yuto Terashima</h1>
 <h3 align="center">AI Researcher · LLMs · Agents · Trustworthy AI</h3>
 
 <p align="center">
-  UC Berkeley Computer Science, 2021-2025 · Google AI Intern, 2025
+  UC Berkeley Bachelor of Computer Science, 2021-2025 · Google AI Intern, 2025 · University of Melbourne MCS, 2026-present
 </p>
 
 <p align="center">
@@ -25,7 +26,7 @@ systems: agents that use tools, retrieve context, evaluate themselves, and opera
 inside real workflows. My work focuses on practical evaluation, agent reliability,
 multilingual safety, and transformer-based NLP systems.
 
-- **Education:** UC Berkeley, Computer Science undergraduate, 2021-2025
+- **Education:** UC Berkeley, Computer Science undergraduate, 2021-2025; University of Melbourne, Master of Computer Science, 2026-present
 - **Experience:** Google AI, AI Intern, 2025
 - **Research taste:** careful benchmarks, readable systems, reproducible experiments
 - **Practice:** Kendo, guided by **一心不乱**: disciplined attention under pressure
@@ -67,4 +68,3 @@ English · 日本語 · 中文
 ## Contact
 
 - Email: [yutoterashima4@gmail.com](mailto:yutoterashima4@gmail.com)
-- GitHub: [YutoTerashima](https://github.com/YutoTerashima)
