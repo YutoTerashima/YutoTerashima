@@ -2,7 +2,7 @@ name: Update profile stars
 
 on:
   schedule:
-    - cron: "17 3 * * *"
+    - cron: "17 */6 * * *"
   workflow_dispatch:
 
 permissions:
@@ -17,9 +17,17 @@ jobs:
         with:
           python-version: "3.11"
       - name: Regenerate total stars badge
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/update_total_stars.py
       - name: Commit badge update
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "Update total stars badge"
-          file_pattern: assets/widgets/total_stars.svg
+        run: |
+          if git diff --quiet -- assets/widgets/total_stars.svg; then
+            echo "No star widget change."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/widgets/total_stars.svg
+          git commit -m "Update total stars badge"
+          git push
