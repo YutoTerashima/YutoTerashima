@@ -4,7 +4,7 @@
 
 <h1 align="center">寺島悠斗</h1>
 <h1 align="center">Yuto Terashima</h1>
-<h3 align="center">AI Researcher · LLMs · Agents · Trustworthy AI</h3>
+<h3 align="center">AI Researcher · LLMs · Agents · Trustworthy AI · Japanese Kenshi</h3>
 
 <p align="center">
   UC Berkeley Bachelor of Computer Science, 2021-2025 · Google AI Intern, 2025 · University of Melbourne MCS, 2026-present
@@ -18,13 +18,34 @@
 </p>
 
 <p align="center">
-  <img src="./assets/widgets/ai_dojo_console.svg" alt="AI Dojo Console" width="100%">
+  <a href="https://github.com/YutoTerashima/agent-safety-eval-lab">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2600&pause=650&center=true&vCenter=true&width=900&lines=agent+safety+evals+on+real+datasets;tool-use+security+%2B+prompt-injection+defense;RAG+observability+%2B+failure+analysis;Japanese+kenshi+%2F+AI+systems+researcher;%E4%B8%80%E5%BF%83%E4%B8%8D%E4%B9%B1+%2F+one+mind%2C+undisturbed" alt="Typing profile widget">
+  </a>
 </p>
 
 <p align="center">
-  <img src="./assets/widgets/research_radar.svg" alt="Research Radar" width="49%">
-  <img src="./assets/widgets/portfolio_pulse.svg" alt="Portfolio Pulse" width="49%">
+  <img src="https://img.shields.io/badge/GPU-RTX%205090%20Laptop-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="RTX 5090 Laptop GPU">
+  <img src="https://img.shields.io/badge/Dojo-Agent%20Safety-0EA5E9?style=for-the-badge" alt="Agent Safety">
+  <img src="https://img.shields.io/badge/Kendo-%E4%B8%80%E5%BF%83%E4%B8%8D%E4%B9%B1-B91C1C?style=for-the-badge" alt="Isshin Furan">
 </p>
+
+### Dojo Command Palette
+
+| Command | Opens | Hidden move |
+| --- | --- | --- |
+| `:trace --risk` | [agent-trace-viewer](https://github.com/YutoTerashima/agent-trace-viewer) | Follow an agent's tool calls like footwork in a match |
+| `:guard --tools` | [mcp-tool-security-playground](https://github.com/YutoTerashima/mcp-tool-security-playground) | Catch prompt injection before it reaches the blade |
+| `:eval --agents` | [agent-safety-eval-lab](https://github.com/YutoTerashima/agent-safety-eval-lab) | Turn vague model behavior into measurable failure modes |
+| `:retrieve --why` | [rag-eval-observatory](https://github.com/YutoTerashima/rag-eval-observatory) | Separate retrieval misses from generation mistakes |
+| `:train --from-scratch` | [transformer-from-scratch-notes](https://github.com/YutoTerashima/transformer-from-scratch-notes) | Build the model mechanics instead of only calling APIs |
+
+### 守破離 / Research Kata
+
+| Stage | In kendo | In AI research |
+| --- | --- | --- |
+| 守 | Drill fundamentals until they become instinct | Reproduce baselines, write tests, measure carefully |
+| 破 | Break form with intent | Stress agents, tools, prompts, and multilingual safety cases |
+| 離 | Move freely without losing discipline | Design reliable AI systems from trace to report |
 
 ---
 
@@ -38,7 +59,7 @@ multilingual safety, and transformer-based NLP systems.
 - **Education:** UC Berkeley, Computer Science undergraduate, 2021-2025; University of Melbourne, Master of Computer Science, 2026-present
 - **Experience:** Google AI, AI Intern, 2025
 - **Research taste:** careful benchmarks, readable systems, reproducible experiments
-- **Practice:** Kendo, guided by **一心不乱**: disciplined attention under pressure
+- **Practice:** Japanese kenshi, guided by **一心不乱**: disciplined attention under pressure
 
 ## Research Focus
 
