@@ -1,0 +1,25 @@
+name: Update profile stars
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-stars:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Regenerate total stars badge
+        run: python scripts/update_total_stars.py
+      - name: Commit badge update
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update total stars badge"
+          file_pattern: assets/widgets/total_stars.svg

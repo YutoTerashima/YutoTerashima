@@ -21,7 +21,7 @@
 
 <p align="center">
   <a href="https://github.com/YutoTerashima?tab=repositories">
-    <img src="https://img.shields.io/github/stars/YutoTerashima?affiliations=OWNER%2CCOLLABORATOR&style=for-the-badge&label=total%20stars&logo=github" alt="Total GitHub stars">
+    <img src="./assets/widgets/total_stars.svg" alt="Total GitHub stars">
   </a>
 </p>
 

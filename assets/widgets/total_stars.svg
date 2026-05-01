@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="216" height="36" role="img" aria-label="total stars: 12">
+  <title>total stars: 12</title>
+  <linearGradient id="s" x2="0" y2="100%">
+    <stop offset="0" stop-color="#f8fafc" stop-opacity=".12"/>
+    <stop offset="1" stop-color="#020617" stop-opacity=".12"/>
+  </linearGradient>
+  <clipPath id="r"><rect width="216" height="36" rx="9" fill="#fff"/></clipPath>
+  <g clip-path="url(#r)">
+    <rect width="112" height="36" fill="#0f172a"/>
+    <rect x="112" width="104" height="36" fill="#f59e0b"/>
+    <rect width="216" height="36" fill="url(#s)"/>
+  </g>
+  <g fill="#fff" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">
+    <text x="56" y="23">★ total stars</text>
+    <text x="164" y="23">12</text>
+  </g>
+  <text x="208" y="32" fill="#fff7ed" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="8">12 repos</text>
+</svg>
