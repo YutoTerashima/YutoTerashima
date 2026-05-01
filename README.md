@@ -17,35 +17,48 @@
   以剑道的专注，打磨 AI 系统与评测。
 </p>
 
+## Live Lab
+
+<p align="center">
+  <img height="168" src="https://github-readme-stats.vercel.app/api?username=YutoTerashima&show_icons=true&hide_border=true&theme=tokyonight&rank_icon=github&include_all_commits=true" alt="Yuto Terashima GitHub stats">
+  <img height="168" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YutoTerashima&layout=compact&hide_border=true&theme=tokyonight&langs_count=8" alt="Top languages">
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=YutoTerashima&theme=tokyo-night&hide_border=true&area=true" alt="Contribution activity graph">
+</p>
+
+## Project Telemetry
+
+<p align="center">
+  <a href="https://github.com/YutoTerashima/agent-safety-eval-lab"><img src="https://img.shields.io/github/stars/YutoTerashima/agent-safety-eval-lab?style=for-the-badge&label=agent-safety-stars" alt="agent-safety-eval-lab stars"></a>
+  <a href="https://github.com/YutoTerashima/mcp-tool-security-playground"><img src="https://img.shields.io/github/stars/YutoTerashima/mcp-tool-security-playground?style=for-the-badge&label=mcp-security-stars" alt="mcp-tool-security-playground stars"></a>
+  <a href="https://github.com/YutoTerashima/rag-eval-observatory"><img src="https://img.shields.io/github/stars/YutoTerashima/rag-eval-observatory?style=for-the-badge&label=rag-eval-stars" alt="rag-eval-observatory stars"></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/YutoTerashima/agent-safety-eval-lab"><img src="https://img.shields.io/github/last-commit/YutoTerashima/agent-safety-eval-lab?style=flat-square&label=agent-safety-last-commit" alt="agent-safety-eval-lab last commit"></a>
+  <a href="https://github.com/YutoTerashima/rag-eval-observatory"><img src="https://img.shields.io/github/last-commit/YutoTerashima/rag-eval-observatory?style=flat-square&label=rag-last-commit" alt="rag-eval-observatory last commit"></a>
+  <a href="https://github.com/YutoTerashima/transformer-from-scratch-notes"><img src="https://img.shields.io/github/last-commit/YutoTerashima/transformer-from-scratch-notes?style=flat-square&label=transformer-last-commit" alt="transformer-from-scratch-notes last commit"></a>
+</p>
+
 <p align="center">
   <a href="https://github.com/YutoTerashima/agent-safety-eval-lab">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2600&pause=650&center=true&vCenter=true&width=900&lines=agent+safety+evals+on+real+datasets;tool-use+security+%2B+prompt-injection+defense;RAG+observability+%2B+failure+analysis;Japanese+kenshi+%2F+AI+systems+researcher;%E4%B8%80%E5%BF%83%E4%B8%8D%E4%B9%B1+%2F+one+mind%2C+undisturbed" alt="Typing profile widget">
+    <img width="420" src="https://github-readme-stats.vercel.app/api/pin/?username=YutoTerashima&repo=agent-safety-eval-lab&theme=tokyonight&hide_border=true" alt="agent-safety-eval-lab repo card">
+  </a>
+  <a href="https://github.com/YutoTerashima/rag-eval-observatory">
+    <img width="420" src="https://github-readme-stats.vercel.app/api/pin/?username=YutoTerashima&repo=rag-eval-observatory&theme=tokyonight&hide_border=true" alt="rag-eval-observatory repo card">
   </a>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/GPU-RTX%205090%20Laptop-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="RTX 5090 Laptop GPU">
-  <img src="https://img.shields.io/badge/Dojo-Agent%20Safety-0EA5E9?style=for-the-badge" alt="Agent Safety">
-  <img src="https://img.shields.io/badge/Kendo-%E4%B8%80%E5%BF%83%E4%B8%8D%E4%B9%B1-B91C1C?style=for-the-badge" alt="Isshin Furan">
+  <a href="https://github.com/YutoTerashima/mcp-tool-security-playground">
+    <img width="420" src="https://github-readme-stats.vercel.app/api/pin/?username=YutoTerashima&repo=mcp-tool-security-playground&theme=tokyonight&hide_border=true" alt="mcp-tool-security-playground repo card">
+  </a>
+  <a href="https://github.com/YutoTerashima/multilingual-llm-safety-bench">
+    <img width="420" src="https://github-readme-stats.vercel.app/api/pin/?username=YutoTerashima&repo=multilingual-llm-safety-bench&theme=tokyonight&hide_border=true" alt="multilingual-llm-safety-bench repo card">
+  </a>
 </p>
-
-### Dojo Command Palette
-
-| Command | Opens | Hidden move |
-| --- | --- | --- |
-| `:trace --risk` | [agent-trace-viewer](https://github.com/YutoTerashima/agent-trace-viewer) | Follow an agent's tool calls like footwork in a match |
-| `:guard --tools` | [mcp-tool-security-playground](https://github.com/YutoTerashima/mcp-tool-security-playground) | Catch prompt injection before it reaches the blade |
-| `:eval --agents` | [agent-safety-eval-lab](https://github.com/YutoTerashima/agent-safety-eval-lab) | Turn vague model behavior into measurable failure modes |
-| `:retrieve --why` | [rag-eval-observatory](https://github.com/YutoTerashima/rag-eval-observatory) | Separate retrieval misses from generation mistakes |
-| `:train --from-scratch` | [transformer-from-scratch-notes](https://github.com/YutoTerashima/transformer-from-scratch-notes) | Build the model mechanics instead of only calling APIs |
-
-### 守破離 / Research Kata
-
-| Stage | In kendo | In AI research |
-| --- | --- | --- |
-| 守 | Drill fundamentals until they become instinct | Reproduce baselines, write tests, measure carefully |
-| 破 | Break form with intent | Stress agents, tools, prompts, and multilingual safety cases |
-| 離 | Move freely without losing discipline | Design reliable AI systems from trace to report |
 
 ---
 
