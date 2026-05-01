@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this profile material, please cite it as below."
+title: "YutoTerashima"
+authors:
+  - family-names: "Terashima"
+    given-names: "Yuto"
+date-released: "2026-05-02"
+repository-code: "https://github.com/YutoTerashima/YutoTerashima"
+contact:
+  - type: email
+    value: "yutoterashima4@gmail.com"
