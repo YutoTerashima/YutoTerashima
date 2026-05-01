@@ -2,8 +2,7 @@
   <img src="./assets/kendo/kendo_isshin_furan_photo_wall_4k_v4.png" alt="Yuto Terashima kendo banner" width="100%">
 </p>
 
-<h1 align="center">寺島悠斗</h1>
-<h1 align="center">Yuto Terashima</h1>
+<h1 align="center">寺島悠斗 Yuto Terashima</h1>
 <h3 align="center">AI Researcher · LLMs · Agents · Trustworthy AI · Japanese Kenshi</h3>
 
 <p align="center">
@@ -42,12 +41,19 @@ multilingual safety, and transformer-based NLP systems.
 
 | Project | Signal |
 | --- | --- |
+| [hms-harmful-brain-activity-classification](https://github.com/YutoTerashima/hms-harmful-brain-activity-classification) | Kaggle HMS EEG classification Silver Medal solution archive, 123rd of 2,767 teams |
 | [agent-safety-eval-lab](https://github.com/YutoTerashima/agent-safety-eval-lab) | Flagship lab for agent traces, tool-call grading, and safety evaluation |
 | [mcp-tool-security-playground](https://github.com/YutoTerashima/mcp-tool-security-playground) | Tool-use security, permission policies, and prompt-injection threat modeling |
 | [rag-eval-observatory](https://github.com/YutoTerashima/rag-eval-observatory) | RAG observability with retrieval, faithfulness, and failure-case analysis |
 | [multilingual-llm-safety-bench](https://github.com/YutoTerashima/multilingual-llm-safety-bench) | English/Japanese/Chinese safety mini-benchmark and model behavior report |
 | [ISC-Bench-Reproduction](https://github.com/YutoTerashima/ISC-Bench-Reproduction) | Reproduction-oriented work around LLM safety and agent evaluation |
 | [Transformers-Projects](https://github.com/YutoTerashima/Transformers-Projects) | Transformer/NLP project lab and experiments |
+
+## Awards
+
+| Competition | Result |
+| --- | --- |
+| [HMS - Harmful Brain Activity Classification](https://www.kaggle.com/competitions/hms-harmful-brain-activity-classification) | Kaggle Silver Medal, 123rd / 2,767 teams |
 
 <p align="center">
   <a href="https://github.com/YutoTerashima?tab=repositories">
